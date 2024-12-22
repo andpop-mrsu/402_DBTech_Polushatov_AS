@@ -1,0 +1,10 @@
+#!/usr/bin/env php
+<?php
+require __DIR__ . '/../vendor/autoload.php';
+
+use aplou00\Hangman\Controller\GameController;
+
+date_default_timezone_set('Europe/Moscow');
+
+$controller = new GameController();
+$controller->run($argv);
