@@ -1,0 +1,5 @@
+{
+    "require": {
+        "aplou00/hangman": "^1.2"
+    }
+}
