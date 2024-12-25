@@ -1,0 +1,33 @@
+{
+    "name": "aplou00/hangman",
+    "description": "Implementation of the game \"Hangman\"",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "aplou00\\Hangman\\": "src/"
+        },
+        "files": [
+            "src/Controller/GameController.php",
+            "src/View/GameView.php",
+            "src/Model/Game.php",
+            "src/Repository/Database.php",
+            "src/Service/GameService.php"
+        ]
+    },
+    "bin": [
+        "bin/hangman"
+    ],
+    "authors": [
+        {
+            "name": "aplou00",
+            "email": "obeme199@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.0",
+        "gabordemooij/redbean": "^5.7"
+    }
+}
