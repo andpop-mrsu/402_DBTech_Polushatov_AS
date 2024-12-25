@@ -1,0 +1,28 @@
+{
+    "name": "aplou00/hangman",
+    "description": "Implementation of the game \"Hangman\"",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "aplou00\\Hangman\\": "src/"
+        },
+        "files": [
+            "src/Controller.php",
+            "src/View.php"
+        ]
+    },
+    "bin": [
+        "bin/hangman"
+    ],
+    "authors": [
+        {
+            "name": "aplou00",
+            "email": "obeme199@mail.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.0"
+    }
+}
